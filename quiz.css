@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #54c3ef;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    color: #fad744;
+    margin-top: 12px;
+}
+
+body h1 {
+    font-family: 'Caveat Brush', cursive;
+    color: #fad744;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#main-container {
+    background-color: #2b3252;
+    width: 1000px;
+    border-radius: 12px;
+    padding: 50px 25px;
+    margin: 50px auto;
+}
+
+.Question {
+    padding: 0px 0px;
+    color: #fad744;
+}
+
+.Question h3 {
+    font-size: 24px;
+    margin: 12px 0px;
+}
+
+.Question p {
+    font-size: 16px;
+    margin: 8px 0px;
+    padding-left: 4px;
+}
+
+#submit-btn {
+    padding: 8px 24px;
+    background-color: #fad744;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 12px;
+}
+
+.submit-button-container {
+    margin-top: 45px;
+    text-align: center;
+}
+
+#result-div {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    position: sticky;
+    top: 178px;
+    margin-left: 8px;
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 12px;
+}
